@@ -13,8 +13,9 @@ export default function  Meme(){
     }
 
     const elements=things.map(thing=>thing) */
-   
 
+    const result = React.useState("Hrllo")
+    console.log(result);
 return (<main>
         <div className="form">
         <input type="text"  placeholder="Top Text" className="form-inputs"/>
